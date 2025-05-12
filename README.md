@@ -38,10 +38,3 @@ Once the dashboard is open in Power BI, you can interact with it in the followin
 
 * This project may include sample data in \[specify format, e.g., `Amazon_Combined_Data.csv`]. This data is for demonstration purposes only.
 * To use this dashboard with your own Amazon sales data, you will need to connect it to your specific data source. Ensure your data includes relevant fields such as sales amount, profit, quantity, product information, and date.
-
-```dax
-// Example DAX measure for Total Profit
-Total Profit = SUM('Sales'[Profit])
-```powerquery
-// Example M code in Power Query to transform a column
-= Table.TransformColumnTypes(#"Previous Step",{{"Order Date", type date}})
